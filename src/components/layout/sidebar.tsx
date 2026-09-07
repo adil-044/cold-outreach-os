@@ -7,6 +7,7 @@ import {
   Crosshair,
   Inbox,
   LayoutDashboard,
+  Mail,
   Megaphone,
   MessageSquare,
   Settings,
@@ -19,6 +20,7 @@ import { cn } from "@/lib/utils";
 
 const nav = [
   { href: "/brantford-sms", label: "Brantford SMS", icon: MessageSquare },
+  { href: "/ottawa-email", label: "Ottawa Email", icon: Mail },
   { href: "/focus", label: "Focus", icon: Crosshair },
   { href: "/", label: "Dashboard", icon: LayoutDashboard },
   { href: "/prospects", label: "Prospects", icon: Users },
