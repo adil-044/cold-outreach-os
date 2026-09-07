@@ -4,9 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   BarChart3,
+  Crosshair,
   Inbox,
   LayoutDashboard,
   Megaphone,
+  MessageSquare,
   Settings,
   Target,
   FileText,
@@ -16,6 +18,8 @@ import {
 import { cn } from "@/lib/utils";
 
 const nav = [
+  { href: "/brantford-sms", label: "Brantford SMS", icon: MessageSquare },
+  { href: "/focus", label: "Focus", icon: Crosshair },
   { href: "/", label: "Dashboard", icon: LayoutDashboard },
   { href: "/prospects", label: "Prospects", icon: Users },
   { href: "/campaigns", label: "Campaigns", icon: Megaphone },
@@ -37,7 +41,7 @@ export function Sidebar() {
         </div>
         <div>
           <div className="text-sm font-semibold tracking-tight">Outreach OS</div>
-          <div className="text-[11px] text-muted-foreground">Cold pipeline</div>
+          <div className="text-[11px] text-muted-foreground">One lead at a time</div>
         </div>
       </div>
       <nav className="flex-1 space-y-0.5 p-2">
@@ -62,7 +66,7 @@ export function Sidebar() {
         })}
       </nav>
       <div className="border-t border-border p-3 text-[11px] text-muted-foreground">
-        <div className="flex justify-between"><span>Shortcuts</span><span className="kbd">?</span></div>
+        <div className="flex justify-between"><span>Focus</span><span className="kbd">F</span></div>
         <div className="mt-2 space-y-1">
           <div className="flex justify-between"><span>New prospect</span><span className="kbd">N</span></div>
           <div className="flex justify-between"><span>Command</span><span className="kbd">⌘K</span></div>

@@ -4,12 +4,17 @@ Personal cold outreach operating system — Linear/Notion/Superhuman energy.
 
 **Live:** https://adil-044.github.io/cold-outreach-os/
 
+**Focus (one lead):** https://adil-044.github.io/cold-outreach-os/focus/
+
+**Brantford SMS desk (phone):** https://adil-044.github.io/cold-outreach-os/brantford-sms/
+
 ## Stack
 
 Next.js 15 · TypeScript · Tailwind v4 · shadcn-style UI · Zustand · TanStack Table/Query/Virtual · Framer Motion · Recharts · Papa Parse
 
 ## Features
 
+- **Focus** — one lead card · Open Gmail · Copy DM + IG · disposition
 - Prospects table (virtualized) · CSV import/export · bulk actions · keyboard nav
 - Scripts with `{{variables}}` · live preview · version history · folders
 - Campaigns · Inbox timeline · Tasks · Analytics · Templates · Settings
